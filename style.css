@@ -1,4 +1,19 @@
-* {
+@font-face {
+    font-family:Regular;
+    src: url(https://assets.website-files.com/5f040c8ad0b82a728ec61a1e/5f113ff126b4cf9adc88f56b_Canela-Regular.otf
+    );
+}
+@font-face {
+    font-family:Normal;
+    src: url(https://assets.website-files.com/5f040c8ad0b82a728ec61a1e/5f11400d7f3cc0515ff2fc19_FaktPro-Normal.otf
+    );
+}
+@font-face {
+    font-family:Light ;
+    src: url(https://assets.website-files.com/5f040c8ad0b82a728ec61a1e/5f11406e9c0b8919a5797292_Canela-Light.otf
+    );
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,34 +28,28 @@ html {
 .home {
     width: 100%;
     height: 100%;
-    background-image: url(home\ .jpg);
+    background-image: url(https://assets.website-files.com/5f040c8ad0b82a728ec61a1e/5f11465c2ae6bc44354005a7_hero-image-skincare.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-
 }
-
 .home img {
     width: 150px;
     position: relative;
     left: 10%;
 }
-
 .home #part1 {
     margin: 120px 170px;
     width: 50%;
 
 }
-
 .home #part1 h5 {
     font-size: 15px;
     font-weight: 400;
-
 }
-
 .home #part1 h2 {
 
     font-size: 85px;
@@ -49,26 +58,21 @@ html {
     letter-spacing: 2px;
     word-spacing: 3px;
 }
-
 .page2 {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-
-
 }
-
 .page2 h1 {
     font-size: 70px;
 
     margin: 30px 150px;
     color: rgb(0, 0, 0);
     font-weight: 400;
-    font-family: mona sans f;
+    font-family:Light;
 }
-
 .page2 #nav {
     width: 80%;
     height: 80px;
@@ -79,15 +83,12 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
 .page2 h3 {
     font-size: 30px;
     font-weight: 400;
-
+    font-family: Light;
 }
-
 .page2 #info {
     width: 40%;
     height: 80px;
@@ -96,22 +97,18 @@ html {
     align-items: center;
     background-color: rgba(177, 176, 176, 0.078);
     padding: 0px 15px;
-
 }
-
 .page2 #info h4 {
     color: #000000;
     font-size: 15px;
     font-weight: 500;
     opacity: 0.5;
 }
-
 .page2 #info #option {
     display: flex;
     gap: 40px;
     align-items: center;
 }
-
 .page2 #info #option button {
     padding: 12px 15px;
     font-size: 16px;
@@ -120,20 +117,17 @@ html {
     border: 1px solid rgb(0, 0, 0);
     color: #191919;
 }
-
 .page2 #info #option h5 {
     font-size: 16px;
     font-weight: 500;
     color: #000000;
     opacity: 0.6;
 }
-
 .page2 #info #line {
     height: 70%;
     width: 1px;
     background-color: rgb(0, 0, 0);
 }
-
 .btm {
     width: 80%;
     height: 55%;
@@ -146,146 +140,114 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .btm .col {
     width: 33.33%;
     height: 100%;
-
-
 }
-
 .btm #select {
     border-left: 1.5px solid black;
     border-right: 1px solid black;
 }
-
 .btm .image {
     width: 100%;
     height: 85%;
     transition: all ease 0.6s;
     overflow: hidden;
     background: transparent;
-
 }
-
 .btm .col .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-
 }
-
 .btm .col .text {
     width: 100%;
     height: 15%;
     background: transparent;
     padding: 3px 10px;
 }
-
 .btm .col .text h5 {
     font-size: 15px;
     font-weight: 500;
     opacity: 0.8;
     margin-bottom: 5px;
+    font-family: Light;
 }
-
 .btm .col .text h2 {
     font-size: 27px;
     font-weight: 700;
     font-family: serif;
     opacity: 0.9;
-
-
+    font-family: Light;
 }
-
 .btm .col:hover img {
     transform: scale(1.05);
-
 }
-
 .btm .col:hover {
     background-color: rgba(188, 204, 226, 0.093);
 }
-
 .page3 {
     width: 100%;
     height: 100%;
     padding-top: 80px;
-
-
 }
-
 .page3 h1 {
     font-size: 45px;
     padding-top: 50px;
     margin: 30px 150px;
     color: rgb(0, 0, 0);
     font-weight: 400;
-    font-family: mona sans f;
-
-
+    font-family: Regular;
 }
-
 .page3 .btm {
     width: 80%;
     height: 65%;
     display: flex;
     margin-top: 50px;
     border: 1.5px solid black;
-
 }
-
 .page3 #select1 {
     border-left: 1.5px solid black;
     border-right: 1px solid black;
 }
-
 .page4 {
     width: 100%;
     height: 100%;
-    
 }
-
 .page4 h1 {
     font-size: 45px;
     padding-top: 50px;
     margin: 30px 150px;
     color: rgb(0, 0, 0);
     font-weight: 400;
-    font-family: mona sans f;
+    font-family: Regular;
 }
-
 .page4 .btm {
     width: 80%;
     height: 65%;
     display: flex;
     margin-top: 50px;
     border: 1.5px solid black;
-
 }
-
 .page4 #select2 {
     border-left: 1.5px solid black;
     border-right: 1px solid black;
 }
-
-.page5{
-    width:100%;
-    height:100%;
+.page5 {
+    width: 100%;
+    height: 100%;
 }
-.page5 .btm{
+.page5 .btm {
     width: 80%;
     height: 70%;
-  border: none;
+    border: none;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-
-
-.page5 #left{
+.page5 #left {
     width: 50%;
     height: 100%;
     display: flex;
@@ -293,66 +255,58 @@ html {
     justify-content: center;
     align-items: start;
 }
-
-.page5 #left h2{
+.page5 #left h2 {
     font-size: 70px;
     font-weight: 500;
     font-family: mona sans f;
     padding-bottom: 13px;
-    
 }
-.page5 #left p{
+.page5 #left p {
     font-size: 16px;
     font-size: 600;
     color: #000000;
     opacity: 0.6;
 }
-.page5 #left button{
+.page5 #left button {
     margin-top: 70px;
     padding: 18px 25px;
-    background-color:black;
+    background-color: black;
     color: #ffffff;
     border: none;
     font-size: 13px;
     font-weight: 500;
 }
-.page5 .btm #left #text i{
+.page5 .btm #left #text i {
     font-size: 16px;
     font-weight: 700;
-   color: #ffffff;
-  
+    color: #ffffff;
 }
-
-.page5 #right{
+.page5 #right {
     width: 50%;
     height: 100%;
-   
 }
-.page5 #right .gallery{
+.page5 #right .gallery {
     width: 100%;
     height: 40%;
     background-color: aqua;
-   
     display: flex;
     flex-direction: column;
 }
-.page5 .btm #right .elem{
+.page5 .btm #right .elem {
     width: 50%;
     height: 100%;
-   overflow: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    
-   
 }
-.page5 .btm #right .elem .overlay{
+.page5 .btm #right .elem .overlay {
     width: 100%;
     height: 100%;
     background-color: #620808;
-    z-index: 999; 
+    z-index: 999;
 }
-.page5 .btm #right  .row{
+.page5 .btm #right .row {
     width: 100%;
     height: 100%;
     background-color: azure;
@@ -360,14 +314,15 @@ html {
     align-items: flex-start;
     justify-content: flex-start;
 }
-.page5 .btm #right .elem img{
+.page5 .btm #right .elem img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    
+
 }
-.page5 .btm #right .elem:hover img{
+
+.page5 .btm #right .elem:hover img {
     opacity: 0.6;
     scale: 1.2;
 }
